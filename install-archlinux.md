@@ -149,6 +149,7 @@ pacman -S netctl dialog dhcpcd
 
 ## 19º Desmontar partições e desligar
 ```
+exit
 umount -a
 poweroff
 ```
