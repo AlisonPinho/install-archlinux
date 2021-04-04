@@ -243,7 +243,7 @@ SEU_USUARIO ALL=(ALL) ALL
 
 > Para usar o dual boot com Windowns vai ser necessário instalar os pacotes: os-prober e ntfs-3g
 ```
-# pacman -S os-prober ntfs-3g
+pacman -S os-prober ntfs-3g
 
-# grub-mkconfig -o /boot/grub/grub.cfg
+grub-mkconfig -o /boot/grub/grub.cfg
 ```
